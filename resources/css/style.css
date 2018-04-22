@@ -293,3 +293,42 @@ nav p{
 .banner3 .container{
   padding:2rem;
 }
+
+/* bgbanner4 */
+.bgbanner4{
+
+  background-image:url("../images/front.jpg");
+
+  height:80vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* banner4 */
+.banner4{
+  background-color:rgba(20,20,20,1);
+}
+.banner4 h2{
+  padding: 2rem 0;
+}
+.banner4 img{
+
+  height:auto;
+  width:50%;
+
+}
+.designer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow:column;
+}
+.designercontent{
+  margin:2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow:column;
+}
