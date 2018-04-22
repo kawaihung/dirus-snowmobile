@@ -332,3 +332,39 @@ nav p{
   justify-content: center;
   flex-flow:column;
 }
+i{
+  color:rgba(255,255,255,0.9);
+}
+i:hover{
+  color: red;
+}
+
+/* bgbanner5 */
+.bgbanner5{
+
+  background-image:url("../images/p17.jpg");
+
+  height:80vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+.footer{
+  background-color:rgba(20,20,20,1);
+}
+.footercontent{
+  margin:2rem 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-flow:column;
+    height:15rem;
+}
+.footercontent p{
+  color:rgba(255,255,255,0.5);
+  margin: 0;
+}
