@@ -81,14 +81,8 @@ h3{
 }
 
 /* parallax for mobile*/
-@media only screen and (max-width:400px){
-.bgbanner1{
-background-image:url("../images/new-1.jpg")!important;
-background-attachment:scroll !important;
-  height:80vh!important;
+/*@media only screen and (max-width:766px){
 
-
-}
 .bgbanner2{
 background-image:url("../images/front-1.jpg")!important;
 background-attachment:scroll !important;
@@ -99,7 +93,7 @@ background-attachment:scroll !important;
 background-image:url("../images/front-1.jpg")!important;
 background-attachment:scroll !important;
 }
-}
+}*/
 
 /* header */
 .header{
@@ -144,17 +138,18 @@ nav p{
 }
 /* bgbanner1 */
 .bgbanner1{
-  background-image:url("../images/new.jpg");
+
 
   height:100vh;
 
 
-    background-attachment: fixed;
+
     background-position: center;
-    background-repeat: no-repeat;
+
     background-size: cover;
 
 }
+
 /* title */
 .title{
   background-color:rgba(20,20,20,1);
@@ -192,11 +187,11 @@ nav p{
 /* bgbanner2 */
 .bgbanner2{
 
-  background-image:url("../images/sketch.jpg");
+
 
   height:80vh;
 
-    background-attachment: fixed;
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,11 +258,11 @@ nav p{
 /* bgbanner3 */
 .bgbanner3{
 
-  background-image:url("../images/back.jpg");
+
 
   height:80vh;
 
-    background-attachment: fixed;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
