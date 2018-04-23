@@ -146,17 +146,19 @@ nav p{
   height: 100%;
   padding-left: .5rem;
 }
+#demo{
+  position:fixed;
+  top:97vh;
+  text-align: center;
+  margin:0 auto;
+  color:rgba(255,255,255,0.5);
+}
+
 /* bgbanner1 */
 .bgbanner1{
 
 
   height:100vh;
-
-
-
-    background-position: center;
-
-    background-size: cover;
 
 }
 
@@ -429,7 +431,9 @@ a{
     height:10rem;
   }
 .bgbanner1{
-      height: 95vh;
+      height: 100vh;
 }
-
+#demo{
+  font-size: 10px;
+}
 }
