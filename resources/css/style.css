@@ -368,7 +368,7 @@ a{
 
   height:80vh;
 
-  
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,5 +426,9 @@ a{
   }
   .footercontent{
     height:10rem;
+  }
+  .header img{
+    height:2.2rem;
+
   }
 }
