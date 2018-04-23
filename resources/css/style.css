@@ -310,11 +310,11 @@ nav p{
 /* bgbanner4 */
 .bgbanner4{
 
-  background-image:url("../images/front.jpg");
+
 
   height:80vh;
 
-    background-attachment: fixed;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,11 +364,11 @@ a{
 /* bgbanner5 */
 .bgbanner5{
 
-  background-image:url("../images/p17.jpg");
+
 
   height:80vh;
 
-    background-attachment: fixed;
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
