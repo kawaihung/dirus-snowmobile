@@ -16,6 +16,7 @@
 <body>
   <!--header-->
   <div class="container-fluid header">
+    <p id="demo"></p>
     <div class=" headerContainer" >
       <div class="logo">
       <img src="./resources/images/logo2.png" /> <p class="nomobile">   | Snowmobile Design</p>
@@ -25,6 +26,7 @@
         <p><a href="#design">Design</a></p>
         <p><a href="#process">Process</a></p>
         <p><a href="#team">Team</a></p>
+
       </nav>
     </div>
   </div>
@@ -32,7 +34,7 @@
   <!--bgbanner1-->
 
   <div class="container-fluid bgbanner1 " data-parallax="scroll" data-image-src="./resources/images/new.jpg" data-speed="0">
-
+  
   </div>
 <!--title-->
 <div id="concept"  class="container-fluid title">
@@ -339,6 +341,22 @@ function togglePop4() {
       this.classList.toggle('col-6');
 }
 pics4.forEach(pic => pic.addEventListener('click', togglePop4));
+
+
+
+
+const countDownDate = new Date("May 18, 2012 00:00:00").getTime();
+let y = setInterval(function() {
+  const today = new Date().getTime();
+    const distance = today - countDownDate;
+    let years= Math.floor(distance /(1000 * 60 * 60 * 24* 365));
+    let days = Math.floor((distance % (1000 * 60 * 60 * 24* 365))/(1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = years+ " : "+ days + " :" + hours + " : "
+    + minutes + " : " + seconds ;
+}, 1000);
 
 
 </script>
