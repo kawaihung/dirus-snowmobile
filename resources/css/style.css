@@ -417,7 +417,7 @@ a{
   }
   .header img{
     margin:1rem auto 0;
-    height:2.2rem;
+    height:2.5rem;
   }
   nav{
     margin:.5rem auto ;
@@ -428,6 +428,8 @@ a{
   .footercontent{
     height:10rem;
   }
-
+.bgbanner1{
+      height: 95vh;
+}
 
 }
