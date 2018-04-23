@@ -294,7 +294,19 @@ chassis.</p>
 
 <script>
 
-window.addEventListener("hashchange", function() { scrollBy(0, -62) })
+function myFunction(x) {
+    if (x.matches) {
+        window.addEventListener("hashchange", function() { scrollBy(0, -97) });
+    } else {
+        window.addEventListener("hashchange", function() { scrollBy(0, -62) });
+    }
+}
+var x = window.matchMedia("(max-width: 500px)")
+myFunction(x) ;
+x.addListener(myFunction);
+
+
+
 
 const pics = document.querySelectorAll('.popable');
 function togglePop() {
