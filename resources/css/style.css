@@ -7,7 +7,7 @@ p, a, h1, h2 ,h3, span{
 
 }
 p, a{
-  font-size:.8rem;
+  font-size:13px;
 }
 h1{
   font-size: 2.4rem;
@@ -18,14 +18,24 @@ h2{
   font-weight: 300;
 }
 h3{
-  font-size: .8rem;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .container{
   max-width:980px;
   margin:0 auto;
   height:100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.container-fluid{
+  padding-right: 1rem;
+    padding-left: 1rem;
+}
+.row{
+   margin-right: 0;
+ margin-left: 0;
 }
 /* pop */
 .pop{
@@ -97,11 +107,11 @@ background-attachment:scroll !important;
 
 /* header */
 .header{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
   height:4rem;
   position: fixed;
    width: 100%;
-   z-index: 1000;
+   z-index: 1;
    display:flex;
    justify-content: center;
 
@@ -152,26 +162,27 @@ nav p{
 
 /* title */
 .title{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 }
 .title .container{
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow:column;
-  padding: 2rem 0;
+  padding: 2rem 1rem 1rem;
 
 }
 
 /* banner1 */
 .banner1{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 }
 .banner1 img{
-  margin:2rem 0;
+  margin-bottom: 2rem;
   height:auto;
   width:100%;
 }
+
 .banner1Pic{
   display: flex;
   align-items: center;
@@ -184,6 +195,7 @@ nav p{
   align-items: flex-start;
   flex-flow:column;
 }
+
 /* bgbanner2 */
 .bgbanner2{
 
@@ -196,11 +208,13 @@ nav p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.banner1 p{
+  margin-bottom: 2rem;
+}
 
 /* banner2 */
 .banner2{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 
 }
 .banner2 h2{
@@ -225,7 +239,7 @@ nav p{
 }
 
 .banner2Content{
-  margin:1rem;
+  margin:1rem 0;
   height:50%;
 }
 
@@ -234,9 +248,11 @@ nav p{
   height:auto;
 }
 
+
+
 /* banner21 */
 .banner21{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 
 }
 .banner21 .container{
@@ -269,7 +285,7 @@ nav p{
 }
 /* banner3 */
 .banner3{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 }
 .banner3 img{
 
@@ -286,9 +302,11 @@ nav p{
 
 }
 .banner3 .container{
-  padding:2rem;
+      padding: 2rem 1rem;
 }
-
+.banner3 .row {
+  padding: 1rem 1rem 0;
+}
 /* bgbanner4 */
 .bgbanner4{
 
@@ -303,7 +321,7 @@ nav p{
 }
 /* banner4 */
 .banner4{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 }
 .banner4 h2{
   padding: 2rem 0;
@@ -358,7 +376,7 @@ a{
 
 /* footer */
 .footer{
-  background-color:rgba(20,20,20,1);
+  background-color:rgba(25,25,25,1);
 }
 .footercontent{
   margin:2rem 0;
@@ -371,4 +389,42 @@ a{
 .footercontent p{
   color:rgba(255,255,255,0.5);
   margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner1 .col-md-4{
+    padding:0;
+  }
+  .banner1 .col-md-8{
+    padding:0;
+  }
+  .banner2 .col-md-4{
+    padding: 0;
+  }
+  .banner21 .col-md-12{
+    padding: 0;
+  }
+  .banner3 .row {
+    padding: 1rem 0 0;
+  }
+  .nomobile{
+    display:none;
+  }
+  .headerContainer{
+    justify-content: center !important;
+    flex-flow: column;
+    align-items: center;
+  }
+  .header img{
+    margin:1rem auto 0;
+  }
+  nav{
+    margin:.5rem auto ;
+  }
+  .header{
+    height:auto;
+  }
+  .footercontent{
+    height:10rem;
+  }
 }
